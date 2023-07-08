@@ -13,6 +13,12 @@ body {
 }
 
 .button.backgroundBlue {
+    background: linear-gradient(blue, skyblue);
+    color: #fff;
+}
+
+.button.backgroundRed {
+    background: linear-gradient(red, orangered);
     color: #fff;
 }
 
