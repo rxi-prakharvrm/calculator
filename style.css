@@ -13,12 +13,16 @@ body {
 }
 
 .button.backgroundBlue {
-    background: linear-gradient(blue, skyblue);
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
 }
 
 .button.backgroundRed {
-    background: linear-gradient(red, orangered);
+    background: #e43a15;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #e65245, #e43a15);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #e65245, #e43a15); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
 }
 
