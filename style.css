@@ -9,13 +9,9 @@ body {
     width: 100%;
 }
 
-.button.backgroundRed {
-    background: linear-gradient(rgb(255, 72, 72), red);
-    color: #fff;
-}
-
 .button.backgroundBlue {
-    background: linear-gradient(rgb(119, 90, 248), rgb(31, 49, 212));
+    background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-97395.jpg?w=826&t=st=1688818132~exp=1688818732~hmac=6729790151c9ad5aaabf02ef627925e92620c6e0f71c69da18fe1cfb02335b7f");
+    background-size: cover;
     color: #fff;
 }
 
